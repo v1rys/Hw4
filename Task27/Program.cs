@@ -12,8 +12,8 @@ while (num >= 1)
 {
     sum = num % 10;
     sum2 = sum2 + sum;
-    num = num /10;
-    
+    num = num / 10;
+
 }
 Console.WriteLine(sum2);
 
