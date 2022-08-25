@@ -2,7 +2,7 @@
 // из 8 элементов и выводит их на экран.
 
 int[] arr = new int[8];
-for (int i = 0; i <= 7; i++)
+for (int i = 0; i <= arr.Length - 1; i++)
 {
     Console.WriteLine("Введите число X");
     int X = Convert.ToInt32(Console.ReadLine());

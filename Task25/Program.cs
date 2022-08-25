@@ -10,7 +10,7 @@ int A = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число B");
 int B = Convert.ToInt32(Console.ReadLine());
 int num = A;
-for (int i = 0; i <= B; i++)
+for (int i = 1; i < B; i++)
 {
     A = A * num;
 }
